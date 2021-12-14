@@ -1,4 +1,16 @@
-Question
+Question 1
+How can you produce a list of the start times for bookings by members named 'David Farrell'?
+![image](https://user-images.githubusercontent.com/32721917/146003904-e699d935-a4ea-4c99-b045-b204ff1c419f.png)
+
+SELECT starttime
+FROM cd.members
+LEFT JOIN cd.bookings
+ON cd.members.memid = cd.bookings.memid
+WHERE firstname = 'David' and surname = 'Farrell';
+
+
+
+Question 2
 How can you produce a list of the start times for bookings for tennis courts, 
 for the date '2012-09-21'? Return a list of start time and facility name pairings, ordered by the time.
 
