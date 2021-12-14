@@ -1,3 +1,25 @@
+
+Exercise from https://sqlbolt.com/lesson/select_queries_with_constraints
+Using the right constraints, find the information we need from the Movies table for each task below.
+
+Table: Movies
+Title	Year
+Toy Story	1995
+A Bug's Life	1998
+Toy Story 2	1999
+Cars 2	2011
+Brave	2012
+Monsters University	2013
+
+
+SELECT title,
+year FROM movies
+WHERE year NOT BETWEEN 2000 AND 2010;
+
+
+
+
+
 Question 1
 How can you produce a list of the start times for bookings by members named 'David Farrell'?
 ![image](https://user-images.githubusercontent.com/32721917/146003904-e699d935-a4ea-4c99-b045-b204ff1c419f.png)
