@@ -18,7 +18,8 @@ WHERE year NOT BETWEEN 2000 AND 2010;
 
 
 
-
+Questions from 
+https://pgexercises.com/questions/joins/simplejoin.html
 
 Question 1
 How can you produce a list of the start times for bookings by members named 'David Farrell'?
