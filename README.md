@@ -123,7 +123,7 @@
 
 ---
 
-**Query #1**
+**Query #Everything in a table**
 
     select * from users;
 
@@ -140,7 +140,7 @@
 | 9       | Mandy      | Stevens     | g.biggle@gmail.com      | 1982-12-12T00:00:00.000Z |
 
 ---
-**Query #2**
+**Query #Everything in another table**
 
     select * from posts;
 
@@ -151,7 +151,7 @@
 | 3       | 5      | 2021-12-14T10:38:42.807Z | I seen ALIENS! Green/silver sky lights above the A38 on tuesday. Watch out poeple!!!                  |
 
 ---
-**Query #3**
+**Query #INNER JOIN**
 
     SELECT * FROM users
     INNER JOIN posts
@@ -288,7 +288,7 @@
 
 ---
 
-**Query #1**
+**Query #INNER JOIN**
 
     SELECT *
     FROM comments 
@@ -427,7 +427,7 @@
 
 ---
 
-**Query #1**
+**Query #LEFT JOIN**
 
     SELECT *
     FROM users
@@ -572,7 +572,7 @@
 
 ---
 
-**Query #2**
+**Query #LEFT JOIN**
 
     SELECT *
     FROM users
